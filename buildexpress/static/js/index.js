@@ -42,11 +42,3 @@ loginBtn.addEventListener("click", () => {
 loginClose.addEventListener("click", () => {
   login.classList.remove("show-login");
 });
-
-/*=============== SLIDER ===============*/
-var swiperCategories = new Swiper(".categories__container", {
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
