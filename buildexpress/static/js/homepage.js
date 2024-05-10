@@ -19,4 +19,4 @@ var swiperCategories = new Swiper(".categories__container", {
         spaceBetween: 24,
       },
     },
-  });z
+  });
