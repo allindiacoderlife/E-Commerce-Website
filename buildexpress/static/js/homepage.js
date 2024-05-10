@@ -20,3 +20,13 @@ var swiperCategories = new Swiper(".categories__container", {
       },
     },
   });
+
+const tabs = document.querySelectorAll('[data-target]'),
+      tabContents = document.querySelectorAll('[content]')
+      
+tabs.forEach((tab => {
+  tab.addEventListener('click',() => {
+    const target = document.querySelector(tab.dataset.target)
+    console.log(target)
+  })
+}))
